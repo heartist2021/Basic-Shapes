@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Light background color */
+}
+
+h1 {
+  color: #333;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid #333; /* Black border color */
+}
+
+.square {
+  background-color: #7fc8f8; /* Light blue color */
+}
+
+.circle {
+  background-color: #f8b400; /* Orange color */
+  border-radius: 50%; /* Make it a circle */
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 87px solid #9acd32; /* Yellow-green color */
+}
